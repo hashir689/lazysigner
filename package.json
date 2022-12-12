@@ -1,0 +1,34 @@
+{
+  "name": "@chainsafe/lazy-minting-voucher-signer",
+  "version": "1.0.2",
+  "description": "Helper utility for creating signed minting vouchers",
+  "main": "dist/index.js",
+  "author": "ChainSafe",
+  "license": "GPL-3.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "rollup --config --environment NODE_ENV:production",
+    "build:dev": "rollup --config --environment NODE_ENV:development"
+  },
+  "dependencies": {
+    "ethers": "5.6.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^18.0.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "gaming",
+    "nft",
+    "lazy minting"
+  ]
+}
