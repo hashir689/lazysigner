@@ -5,6 +5,12 @@
   "main": "dist/index.js",
   "author": "ChainSafe",
   "license": "GPL-3.0",
+
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+    },
+  
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
